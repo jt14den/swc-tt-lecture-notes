@@ -1,5 +1,18 @@
 * <<< [01 Welcome](01-welcome)
 
+### key points
+
+* Novices: don’t know what they don’t know.
+* Competent practitioners: have a usable mental model that’s good enough for everyday purposes.
+* Expert: can handle edge cases.
+* Goal when teaching novices is to help them construct a usable mental model.
+* To do this, must clear up their misconceptions.
+* Summative assessment: done at the end of teaching to see whether learning took place.
+* Formative assessment: done during teaching to guide learning.
+* Can use multiple choice questions (MCQs) as formative assessments to diagnose misconceptions.
+previous episode
+
+
 * Let's get started by learning some theory, how it relates to SWC and putting the theory into practice.
 
 ### Cognitive Development & Mental Models
