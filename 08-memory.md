@@ -1,5 +1,7 @@
 # Expertise and Memory
 
+**SET timer for 45 minutes** 
+
 * * <<< [02 Novice/Formative Assessment](02-novice)
 * [Cognitive Load](11-load) (20/20m) >>>
 

@@ -1,7 +1,12 @@
 ## Novices and Formative Assessment
 
-* <<< [01 Welcome](01-welcome)
-* [08 Memory](08-memory) >>>>
+**set timer for 65 minutes**
+
+1. [Novices and Formative Assessment](02-novice) (20/45m)
+2. [Expertise and Memory](08-memory) (30/15m)
+3. [Cognitive Load](11-load) (20/20m)
+4. [Live Coding](13-live) (30/45m)
+5. [Lessons and Objectives](19-lessons) (30/20m)
 
 ### key points
 
@@ -135,13 +140,12 @@
 
 PUT in doc:
 
-  ```asciidoc
-  Q: what is: 27 + 15 ?  
-  a) 42  
-  b) 32  
-  c) 312  
-  d) 33  
-  ```
+## Q: what is: 27 + 15 ?  
+
+1. 42  
+2. 32  
+3. 312  
+4. 33  
 
   * the correct answer is 42, but each of the other answers provides valuable insight
 
