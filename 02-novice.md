@@ -1,3 +1,5 @@
+## Novices and Formative Assessment
+
 * <<< [01 Welcome](01-welcome)
 
 ### key points
@@ -12,6 +14,7 @@
 * Can use multiple choice questions (MCQs) as formative assessments to diagnose misconceptions.
 previous episode
 
+## Start
 
 * Let's get started by learning some theory, how it relates to SWC and putting the theory into practice.
 
@@ -64,11 +67,13 @@ previous episode
     * DRY - anything you repeat manually, you'll ultimately get wrong (so make the computer repeat things for you by using *tab* completion and the *history* command)
     * Lots of little tools, combined as needed are more productive than a handful of "kitchen sink" programs (motivates the pipe-and-filter model and segues to functions)
 
-* Illustrates: Learning more than just building mental models & pouring in information
-  * Creating linkages between concepts and facts is as important
+
+* These two examples illustrates something else as well.
+* Learning consists of more than **just** building mental models & pouring in information
+  * THAT creating linkages between concepts and facts is as important
   * Telling people not to repeat things, and they should think in terms of little pieces loosely joined
   * Both set the stage for introducing functions
-  * Explicitly referring back to pipes and filters when introducting functions helps solidfy both ideas
+  * Explicitly referring back to pipes and filters when introducing functions helps solidify both ideas
 
 ## Building Useful Mental Models
 
@@ -80,13 +85,12 @@ previous episode
 > It's what you know for sure that just ain't so.  
 > — Mark Twain
 
-* Clearning up learners misconceptions is as important as presenting them with correct information.
+* Clearing up learners misconceptions is as important as presenting them with correct information.
 * their misconceptions may fall into three categories:
-  * Simple *factual errors*, such as believing that St. Louis is the capital of Missouri.These are simple to correct,
+  * Simple *factual errors*, such as believing that St. Louis is the capital of Missouri. These are simple to correct,
     but getting the facts right is not enough on its own.
-    * *Broken models*, believing that motion and acceleration must be in the same direction. We can address these by having them reason through examples to see contradictions.
-    * *Fundamental beliefs*, such as "the world is only a few thousand years old" or "human beings cannot be affecting the planet's climate". These usually cannot be addressed in class, since they are deeply connected to the learner's social identity
-    and often cannot be reasoned away.
+  * *Broken models*, believing that motion and acceleration must be in the same direction. We can address these by having them reason through examples to see contradictions.
+  * *Fundamental beliefs*, such as "the world is only a few thousand years old" or "human beings cannot be affecting the planet's climate". These usually cannot be addressed in class, since they are deeply connected to the learner's social identity and often cannot be reasoned away.
 * 4 i's - insufficient, inappropriate, inaccurate  
 
 * Since SW & D Carpentry are focused on novices, and helping build strong mental models, we're most interested in the middle category of misconceptions
@@ -113,21 +117,22 @@ previous episode
 
 * **Instructors** need feedback on learners' progress and insight into their mental models
 * This is usually done through two kinds of assessments:
-  * *summative assessment* is used to tell if the desired learning took place and wwhter the learner can move ahead
-    * either fail for pass, e.g. driving exam that tells the rest of society whether someone can saftely drive
+  * *summative assessment* is used to tell if the desired learning took place and whether the learner can move ahead
+    * either fail for pass, e.g. driving exam that tells the rest of society whether someone can safely drive
   * *formative assessment* takes place during teaching and learning
     * main purpose: to guide by telling both instructor and learner what to focus on
     * not pass or fail
-    * e.g. a music teacher might ask a student to play a scale very slowly to see if she is breathing correctly and if not to correct  
+    * e.g. a music teacher might ask a student to play a scale very slowly to see if she is breathing correctly and if not correct  
     * secondary purpose is to prepare learners for summative assessments: don't test what wasn't in the lesson
 
 * For us, we are mostly concerned with formative assessments
-* This needs to e quick to administer and evaluate
+* This needs to  quick to administer and evaluate
 * Most widely employed is multiple choice questions (MCQs)
   * if designed well these can do much more than measure how much someone knows
   * e.g. supposed we are teaching children multi-digit addition
   * a well designed MCQ could be:
 
+PUT in doc:
   ~~~
   Q: what is: 27 + 15 ?
   a) 42
@@ -180,7 +185,7 @@ previous episode
 ### tips
 * instructors should use MCQs or some ofther kind of formative assessment at least every 10-15 min to insure the class is learning
 * Since the average attention span is usually only this long, formative assessments help break up instruction time and re-focus attention
-* formative assessmentscan also be used preemtively:
+* formative assessments can also be used preemptively:
   * if you start a class with MCQ and everyone gets it, you can skip the part of the lecture
 > ## Peer Instruction
 >
@@ -222,6 +227,7 @@ previous episode
 > we usually do not use it in our workshops because
 > it takes people time to learn a new way to learn---time
 > that we don't have in our compressed two-day format.
+
 
 > ## Modeling Novice Mental Models
 >
