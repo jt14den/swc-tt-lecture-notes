@@ -1,6 +1,12 @@
 # swc-tt-lecture-notes
 
-A repo for lecture notes to teach instructor training workshops
+A repo for lecture notes to teach instructor training workshops:
+
+1. [Novices and Formative Assessment](02-novice)
+2. [Expertise and Memory](08-memory)
+3. [Cognitive Load](11-load)
+4. [Live Coding](13-live)
+5. [Lessons and Objectives](19-lessons)
 
 ---
 ## pandoc-bootstrap-template
