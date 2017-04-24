@@ -82,7 +82,10 @@ date: 2017-04-23
 * Reference material is opaque to someone who doesn't know what they don't know (novice w/o a mental map).
 * Likewise, tutorials that help build such a map are too slow and diffuse for people who already have one
      * it is poss. to make something that serves both groups, but often easier to address their needs separately
-* An example of the practial implications of this: our Unix lesson only introduces 12 commands and typically spends 2.5 hours to cover
+
+>What do you think some implications of this might be for preparing to teach software carpentry?
+
+* An example of the practical implications of this: our Unix lesson only introduces 12 commands and typically spends 2.5 hours to cover
     * 12.5 minutes per command may seem very slow, but the lesson's real purpose is to teach learners about paths, history, wildcards, pipes and filters, command-line arguments, redirection and the other big ideas the shell depends on (and without which ppl can't understand how to use commands or read their manual pages).
     * That model also includes:
     1. DRY - anything you **repeat manually**, you'll ultimately get wrong (so make the computer repeat things for you by using **tab completion** and the **history command**)
@@ -112,7 +115,10 @@ date: 2017-04-23
     but getting the facts right is not enough on its own.
       * **Broken models**, believing that motion and acceleration must be in the same direction. We can address these by having them reason through examples to see contradictions.
       * **Fundamental beliefs**, such as "the world is only a few thousand years old" or "human beings cannot be affecting the planet's climate". These usually cannot be addressed in class, since they are deeply connected to the learner's social identity and often cannot be reasoned away.
-* 4 i's - insufficient, inappropriate, inaccurate  
+
+>Do you have any examples of "broken or misapplied models" you'd like to share? Do you remember how it got corrected?
+>
+> teaching R -> stata
 
 * Since SW & D Carpentry are focused on novices, and helping build strong mental models, we're most interested in the middle category of misconceptions (broken models)
 * During teaching, we want to **expose broken models** so that we can diagnose and provide better ones.
@@ -132,7 +138,8 @@ date: 2017-04-23
 
 ## Accessing mental models
 
-* How do we expose misconceptions, especially in how they related to mental models.???
+### ask the questions?
+* What do you think we can do to expose misconceptions, especially in how they related to mental models.???
 * How can we do this in-class and know whether learners already understand the topic? (so we can move forward)
 * and if not, what we need to address in their misconceptions?
 
@@ -140,11 +147,13 @@ date: 2017-04-23
 * This is usually done through two kinds of assessments:
     * *summative assessment* is used to tell if the desired learning took place and whether the learner can move ahead
         * either fail for pass, e.g. driving exam that tells the rest of society whether someone can safely drive
+        * Other examples?
     * *formative assessment* takes place during teaching and learning
         * main purpose: to guide by telling both instructor and learner what to focus on
         * not pass or fail
         * e.g. a music teacher might ask a student to play a scale very slowly to see if she is breathing correctly and if not correct  
         * secondary purpose is to prepare learners for summative assessments: don't test what wasn't in the lesson
+        * any examples?
 
 * For us, we are **mostly concerned** with formative assessments
 * This needs to quick to administer and evaluate
@@ -181,7 +190,7 @@ PUT in doc:
 > *   If she answers 33 then she knows she has to carry the 1,
 >     but is carrying it back into the same column it came from.
 
-* each incorrect answer is a **plausible distrator** with **diagnostic power**
+* each incorrect answer is a **plausible distractor** with **diagnostic power**
 * **plausible** means it looks like it could be right
     * instructors often use supposedly silly answers like "a fish" on MCQs, but:
         * (a) they don't provide insight
@@ -296,7 +305,7 @@ and see the topic from their point of view.
 > ## Other Kinds of Formative Assessment
 >
 > What other kinds of formative assessment you have seen or used? Can you think
-> how it helps both the instructor and the learner figure out where they are and what they need > to do next? 
+> how it helps both the instructor and the learner figure out where they are and what they need > to do next?
 >
 > This discussion should take about 5 minutes.
 

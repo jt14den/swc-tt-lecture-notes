@@ -18,12 +18,12 @@ date: 2017-04-23
 
 ## Battling Theories
 
-* In 2006, Kirschner, Sweller and clark published a paper titled “Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching”.
+* In 2006, Kirschner, Sweller and Clark published a paper titled “Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching”.
 * They say (**READ**):
 
 >Although unguided or minimally guided instructional approaches are very popular and intuitively appealing … these approaches ignore both the structures that constitute **human cognitive architecture** and evidence from empirical studies over the past half-century that consistently indicate that **minimally guided instruction** is less effective and less efficient than instructional approaches that place a strong emphasis on guidance of the student learning process. The advantage of guidance begins to recede only when learners have sufficiently high prior knowledge to provide “internal” guidance.
 
-* This paper set off a minor academic scuffle:
+* This paper set off a minor academic kerfuffle:
     * Mainly b/c the authors were claiming **[inquiry-based learning](https://en.wikipedia.org/wiki/Inquiry-based_learning)** (sometimes also called **Problem-based learning**)-- allowing learners to ask their own questions, set their own goals, and find their own paths thru subjects -- doesn't work very well.
     * Kirshcher and authors' argument was that learners need to simultaneously master a **domain's factual content** and its **search and problem solving strategies**.
     * And although fostering creativity and independence is intuitively alluring, it doesn't mean that it works
@@ -36,9 +36,9 @@ date: 2017-04-23
 
   * **cognitive load theory's** proponents claim that eliminating extraneous cognitive load accelerates learning
       * it also has [been criticized](https://edtechdev.wordpress.com/2009/11/16/cognitive-load-theory-failure/), most particularly for being unfalsifiable or un-confirmable.
-      * critics say that since there's no way to tell in advance of an experiment whether something is **germane or not**, any result can be justified after the fact just by labelling that hurt performance as "extraneous" and things that don't (or enhance/enable) as "germane".
+      * critics say that since there's no way to tell in advance of an experiment whether something is **germane or not**, any result can be justified after the fact just by labelling what hurt performance as "extraneous" and things that don't (or enhance/enable) as "germane".
 
-**That said, some predictions *can* be made:**
+**With this said, however, some predictions *can* be made:**
 
 * One example is Moreno and Mayer's work on the [split-attention effect](https://en.wikipedia.org/wiki/Split_attention_effect)
     * Linguistic and visual input are processed by different parts of the human brain, and linguistic and visual memories are stored separately too.
