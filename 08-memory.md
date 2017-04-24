@@ -1,9 +1,16 @@
-# Expertise and Memory
+---
+title: "Expertise and Memory"
+author: "Tim Dennis"
+date: 2017-04-23
+---
 
-**SET timer for 45 minutes** 
+1. [Novices and Formative Assessment](02-novice) (20/45m)
+2. **[Expertise and Memory](08-memory) (30/15m)**
+3. [Cognitive Load](11-load) (20/20m)
+4. [Live Coding](13-live) (30/45m)
+5. [Lessons and Objectives](19-lessons) (30/20m)
 
-* * <<< [02 Novice/Formative Assessment](02-novice)
-* [Cognitive Load](11-load) (20/20m) >>>
+**SET timer for 45 minutes**
 
 ## Key Points
 
@@ -74,29 +81,19 @@ Concept map
   * YES, one person's fact may be another's connection, but by *externalizing cognition* (making these model's visable), concept maps help spark and focus discussion
   * **TIP** concepts maps are just one way to represent our understanding of a subject: flowcharts, decision trees, blueprints can be v. useful in diff. contexts
   * (skip) For example, this diagram (taken from a [blog post][abela-presentation] by Andrew Abela) is an excellent way to organize and present an understanding of how to choose the right kinds of chart for displaying different kinds of data.
-* To show what this looks like consider this simple **for** loop in Python:
+* To show what this looks like consider this map of dataframe piping in R (tidyverse):
 
-~~~
-for ch in "abc":
-  print(2*ch)
-~~~
+https://awwapp.com/b/ufqzvm01v/ (teacher copy)
+https://awwapp.com/b/sidndlp8o (each will get copy)
 
-Three key concpets in this loop are:
+https://s3.amazonaws.com/aww-imagedata/11006a44-252a-4cd5-bf0d-8f7eedafddf1.png (image)
 
-**for ch in "abc":
-    print(2*ch)**
-
-Loop variable, collection, loop body
-
-* in this case it's easy to connect the concepts to concrete elemetns in the program, but that might not always be the case
-* key relationships -- as important as the concepts themselves are:
-
-loop variable > takes each value/in order > collection
-loop variable > changes each time > loop body > runs for each > collection
-
-**possible function in R instead**
-
-TODO: tidyverse - piping
+* There are 9 concepts in this map:  dataframe, pipeline, operations, filter, select, grouby,
+intermediate dataframe, output, Rconsole and variable
+* Then we 6 relationships.
+* This gives us a total of 15, which is more than our ideal size for a single episode.
+* This map should probably be broken up into two graphs and further developed.
+* For instance, the operations that are listed could probably be worked on to add more relationships.
 
 * many concept maps can be larger than the recommended limit (7+-2), but that's not a bad thing [Set and Dict example](https://swcarpentry.github.io/instructor-training/fig/dict-set.png)
 * after drawing a concept map for an entire subject, the lesson designer can carve out a tightly-connected sub-graphs to make individual episodes
@@ -112,7 +109,7 @@ TODO: tidyverse - piping
 
 **Concept maps** also a good way to organize one's thought before putting together a talk or writing a paper. They allow us to *externalize cognition*, i.e. get out thoughts out where we can see them - contradictions and all.
 
->##Concept mapping
+>##(EXERCISE) Concept mapping (<https://goo.gl/279azG>)
 >Create a hand drawn concept map for something you would teach in five minutes. (Possibly for the same subject that you used to create a multiple choice question before.) Trade with a partner, and critique each other’s maps. Do they present concepts or surface detail? Which of the relationships in your partner’s map do you consider concepts and vice versa?
 
 >Take 10 minutes to draw the concept maps and share with your neighbor. Write done in the chat once you have finished.

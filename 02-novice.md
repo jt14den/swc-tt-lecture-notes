@@ -1,8 +1,14 @@
+---
+title: "Novices and Formative Assessment"
+author: "Tim Dennis"
+date: 2017-04-23
+---
+
 ## Novices and Formative Assessment
 
 **set timer for 65 minutes**
 
-1. [Novices and Formative Assessment](02-novice) (20/45m)
+1. **[Novices and Formative Assessment](02-novice) (20/45m)**
 2. [Expertise and Memory](08-memory) (30/15m)
 3. [Cognitive Load](11-load) (20/20m)
 4. [Live Coding](13-live) (30/45m)
@@ -28,16 +34,20 @@
 
 * Effective learning is facilitated by the creation of mental models of a domain
 * What do we mean by mental model?
-  * One example: many of us learned that the ball-and-spring model of  molecules
-  * molecules aren't balls and springs; their bonds not springs
-  * but the model does a good job of helping people reason about molecules, chemical compounds and their reactions
+    * One example: many of us learned that the ball-and-spring model of  molecules
+    * molecules aren't balls; their bonds not springs
+    * but the model does a good job of helping people reason about molecules, chemical compounds and their reactions to one another
 
->### Your mental models
->In the Etherpad, write your primary research domain or area of expertise and one mental model you use to frame and understand your work? This discussion should take about 5 minutes.
->> Me - Work in the library provide data services - help researchers and students with their research, provide instructions on tools that make them more productive
+>## (Exercise) Your mental models (in gdocs <https://goo.gl/279azG>)
+>Write your primary research domain or area of expertise and one mental model you use to frame and understand your work? This discussion should take about 5 minutes.
+>
+>
+> Me - Work in the library provide data services - help researchers and students with their research, provide instructions on tools that make them more productive
+>
+>Review some of the models
 
 * One way to think about the difference b/t **novice and "competent practicioner"** is the existence of the **big picture** mental model
-  * See: Brenner, who applied the [Dreyfus model of skill aquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) in studies on how nurses progress from novice -> expert
+  * See: Brenner, who applied the [Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) in studies on how nurses progress from novice -> expert
 * This model has three stages:
   1. **novice** is someone who doesn't know what they don't know
     * has not built a mental model of a domain or how elements of the domain relate
@@ -59,12 +69,17 @@
   * goal of education for novices is to help them form correct categories
   * **until** they've done that trying to load information on them confuses more than educates
 
->## Manual v. Tutorials
->In the Etherpad, describe the difference between a manual and a tutorial in terms of the differences between novices and competent practitioners. Can one document do a good job of being both? This discussion should take about 5 minutes.
+>## (Discussion) Manual v. Tutorials
+>Programming books are often categorized into *reference manuals* and *tutorials or guides*.
+>With that in mind, what do you think some of the differences between a manual and a tutorial in terms of novices and competent practitioners? Can one document do a good job of being both?
+>
+>This discussion should take about 5 minutes.
 {: .discussion}
 
-* one reason SW dev so frustrating
-* Ref material is opaque to someone who doesn't know what they don't know (novice w/o a mental map).
+**SEE also:** https://swcarpentry.github.io/instructor-training/02-novice/#different-kinds-of-lessons
+
+* One reason software development is so frustrating
+* Reference material is opaque to someone who doesn't know what they don't know (novice w/o a mental map).
 * Likewise, tutorials that help build such a map are too slow and diffuse for people who already have one
      * it is poss. to make something that serves both groups, but often easier to address their needs separately
 * An example of the practial implications of this: our Unix lesson only introduces 12 commands and typically spends 2.5 hours to cover
@@ -102,7 +117,7 @@
 * Since SW & D Carpentry are focused on novices, and helping build strong mental models, we're most interested in the middle category of misconceptions (broken models)
 * During teaching, we want to **expose broken models** so that we can diagnose and provide better ones.
 
-> ## What Happens Next?
+> ## (Discussion) What Happens Next?
 >
 > An example of how solving problems can help people correct broken mental models,
 > consider this problem from Epstein's *[Thinking Physics][amazon-thinking-physics]*.
@@ -121,7 +136,7 @@
 * How can we do this in-class and know whether learners already understand the topic? (so we can move forward)
 * and if not, what we need to address in their misconceptions?
 
-* **Instructors** need feedback on learners' progress and insight into their mental models
+* **we as instructors** need feedback on learners' progress and insight into their mental models
 * This is usually done through two kinds of assessments:
     * *summative assessment* is used to tell if the desired learning took place and whether the learner can move ahead
         * either fail for pass, e.g. driving exam that tells the rest of society whether someone can safely drive
@@ -196,7 +211,7 @@ PUT in doc:
 3. formative assessments can also be used preemptively:
 4. if you start a class with MCQ and everyone gets it, you can skip the part of the lecture
 
-> ## Peer Instruction
+> ### Peer Instruction (SKIP if needed)
 >
 > No matter how good a teacher is,
 > she can only say one thing at a time.
@@ -237,14 +252,14 @@ PUT in doc:
 > that we don't have in our compressed two-day format.
 
 
-> ## Modeling Novice Mental Models
+> ## (Exercise) Modeling Novice Mental Models (<https://goo.gl/279azG>)
 >
 > Take 10 minutes to create a multiple choice question related to a topic you intend to teach.
-> Type it into the Etherpad
+> Type it into the GDoc
 > and explain the diagnostic power of each its distractors,
 > i.e., what misconception is each distractor meant to identify?
 
-> ## A Note on MCQ Design
+> ### A Note on MCQ Design
 >
 > *   A good MCQ tests for conceptual misunderstanding rather than simple factual knowledge.
 >     If you are having a hard time coming up with diagnostic distractors,
@@ -258,7 +273,7 @@ PUT in doc:
 >     or ask colleagues about their experiences.
 {: .callout}
 
-> ## Concept Inventories
+> ### Concept Inventories
 >
 > The [Force Concept Inventory][wikipedia-fci]
 > is a set of MCQs designed to gauge understanding of basic Newtonian mechanics.
@@ -271,18 +286,25 @@ PUT in doc:
 > and students' ability to search for answers on the internet
 > is an ever-increasing threat to its validity.
 
+## MCQ to determine learners POV
 * Designing an MCQ with plausible distractors is useful even if it is never used in class
-* it forces the instructor to think about the learners' mental models and how they might be broken---in short,
+* it forces the instructor to think about the learners' mental models and how they might be broken---
+* in short,
 to put themselves into the learners' heads
 and see the topic from their point of view.
 
 > ## Other Kinds of Formative Assessment
 >
-> In the Etherpad, describe another kind of formative assessment you have seen or used
-> and explain how it helps both the instructor and the learner figure out
-> where they are and what they need to do next.
+> What other kinds of formative assessment you have seen or used? Can you think
+> how it helps both the instructor and the learner figure out where they are and what they need > to do next? 
 >
 > This discussion should take about 5 minutes.
+
+* Other formative assessments:
+    * Concept maps
+    * Have students write their understanding
+    * Muddiest point: "what is the muddiest point in today's class"
+    * Clarity grid - ask waht concepts make the most sense, what is muddy.
 
 
 [amazon-babt]: http://www.amazon.com/Building-Better-Teacher-Teaching-Everyone/dp/0393081591
