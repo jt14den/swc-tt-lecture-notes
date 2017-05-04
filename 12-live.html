@@ -32,6 +32,8 @@
         <ul>
         <li><a href="#why-live-coding">Why live coding?</a></li>
         <li><a href="#live-coding-top-10">Live Coding Top 10</a></li>
+        <li><a href="#maybe-ask-this-instead-of-getting-to-put-in-gdoc.">maybe ask this instead of getting to put in gdoc.</a></li>
+        <li><a href="#wrap-up-talk">Wrap up talk</a></li>
         </ul>
         </div>
       </div>
@@ -43,43 +45,32 @@
 <li><strong><a href="13-live">Live Coding</a> (30/45m)</strong></li>
 <li><a href="19-lessons">Lessons and Objectives</a> (30/20m)</li>
 </ol>
-<p><strong>cornerstones</strong></p>
 <ul>
-<li>One of the cornerstones of Software and Data Carpentry teaching is live coding:
-<ul>
-<li>instructors don't use slides, but work through the lesson material, typing in the code or instructions, with workshop participants following along</li>
-</ul></li>
-<li><strong>This Section</strong> explains how it works, why we use it, and provides general tips.</li>
+<li>Don't use slides in our teaching, but we work through the lesson via live coding.</li>
+<li>We plug into a projector and ask the learners to follow along.</li>
+<li>In this section we'll go over a how it works and give some tips for doing effective live coding.</li>
 </ul>
 <h2 id="why-live-coding">Why live coding?</h2>
-<blockquote>
-<p>Teaching is theater not cinema. -- Neal Davis</p>
-</blockquote>
-<ul>
-<li>We do not use slides in our lessons.</li>
-<li>Instead instructors plug their laptop into the projector and work through the lesson script, typing code, reformatting data and talking as we go.</li>
-</ul>
+<p>But first a question for everyone:</p>
 <blockquote>
 <h2 id="up-and-down">Up and down</h2>
 <p>What do you think some <strong>advantages and challenges</strong> of live coding are from both a learner's and an instructors point of view? (5min) {: .discussion}</p>
 </blockquote>
 <p><strong>It's advantages are:</strong></p>
 <ul>
-<li>Watching a program being written is more compelling than watching someone toggle through slides that present bits and pieces of the same</li>
-<li>It enables instructors to be more responsive to &quot;what if?&quot; questions. <strong>slide decks</strong> can be like a <strong>railway track</strong>, while live coding allows instructors to got <strong>off road</strong> and follow learner's interests</li>
-<li>It facilitates <strong>lateral knowledge transfer</strong>: people learn more than we realize we were teaching by watching how instructors do things -- <strong>think about how you learned to drive?</strong> watching</li>
-<li>It <strong>slows the instructor down</strong>: if she has to type in the program as she goes along, she can only go twice as fast as her learners, rather than 10-fold faster with slides.</li>
-<li>Learners get to see the instructor make mistakes and <strong><em>how to diagnose and correct them.</em></strong> Novices are going to spend <strong>a lot</strong> of time doing this, but it's left out of most textbooks!</li>
+<li>more compelling watching someone buidl a program than watching someone run through slides</li>
+<li>It's easier to entertain &quot;what if?&quot; questions. <strong>slide decks</strong> can be like a <strong>railway track</strong></li>
+<li>A student might want to subset a data object by different conditions - with live coding you can cna &quot;try stuff&quot;</li>
+<li><strong>lateral knowledge transfer</strong>: people learn more than we realize we were teaching by watching how instructors do things <strong>think about how you learned to drive?</strong> watching</li>
+<li><strong>slows the instructor down</strong> - typing slows you down, taking what you are typing slows even more.</li>
+<li>make mistakes and <strong><em>how to diagnose and correct them.</em></strong> Beginners spend a lot of time making mistakes and can benefit from how to recover or debug mistakes.</li>
 </ul>
-<p><strong>There's practice involved for an instructor to get used to live coding and thinking out loud in front of an audience</strong>, but most report that it is no more difficult to do than talking with a slide deck.</p>
+<p>If you aren't used to live coding you will have to practice at thinking out loud while coding in front of people, but most say it's no more difficult than talking wiht slides.</p>
 <dl>
-<dt>Many instructors use two devices when teaching</dt>
+<dt>Many instructors use <strong>two devices when teaching</strong></dt>
 <dd>a laptop plugged into the projector for learners and a tablet beside it on which they can view their notes/etherpad session.
 </dd>
 </dl>
-<ul>
-<li>NOTE: <strong>live coding</strong> is an example of the &quot;I/WE/YOU&quot; approach to teaching from earlier.</li>
-</ul>
 <blockquote>
 <h2 id="bad-and-the-good">Bad and the good</h2>
 <p>Watch this video of <a href="https://youtu.be/bXxBeNkKmJE">live coding done poorly</a> and this video of <a href="https://youtu.be/SkPmwe_WjeY">live coding done right</a> as a group and then summarize your feedback on both in the Etherpad. Use the two x two rubric for feedback we discussed earlier. In the videos, the bash shell <code>for</code> loop is taught, and it is assumed learners are familiar with how to use a variable, the <code>head</code> command and the content of the <code>basilisk.dat unicorn.dat</code> files.</p>
@@ -94,17 +85,83 @@
 <p>Here're are some tips to help you get started with live coding:</p>
 <h3 id="be-seen-and-heard">1. Be Seen and Heard</h3>
 <ul>
-<li>If you can stand for a couple of hours, do it when teaching.</li>
+<li>If you can stand for a couple of hours, do it when teaching
+<ul>
+<li>ask for a high table/standing desk or lecturn</li>
+</ul></li>
+<li>Move around, point something out on the screen, draw on whiteboard</li>
+<li>Consider a microphone to save your voice</li>
 </ul>
 <h3 id="take-it-slow">2. Take it slow</h3>
+<ul>
+<li>Say out loud everything you type while typing</li>
+<li>Then point to the command and output and go over again</li>
+<li>gives learners time to keep up</li>
+<li>keep code on screen or scroll back up</li>
+<li>etherpad</li>
+</ul>
 <h3 id="mirror-your-learners-environment-as-much-as-possible">3. Mirror your learner's environment as much as possible</h3>
+<ul>
+<li>don't use your theme and plugins for bash, learners won't have this</li>
+<li>create a dummy user or revert to the out of box style</li>
+</ul>
 <h3 id="use-the-screen-wisely">4. Use the screen wisely</h3>
+<ul>
+<li>big fonts, max window, black on white works better light on dark</li>
+<li>be aware that the bottom of the window might be too low, so pull it up so ppl in back can see</li>
+<li>Use a second screen if you can get - show etherpad</li>
+</ul>
 <h3 id="use-illustrations">5. Use illustrations</h3>
+<ul>
+<li>use the illustrations in the lessons, drag over your tab or view the image</li>
+<li>whiteboard the illustrations/diagrams as you progress
+<ul>
+<li>i've used with Git and worked well, progressively sketched the working directory, then staging (git add), the draw commit repo (git commit) and finally show remotes and collaborating github</li>
+</ul></li>
+</ul>
 <h3 id="avoid-being-disturbed">6. Avoid being disturbed</h3>
+<ul>
+<li>turn off phone, IM, text, slack, desktop notifications, news alerts, prior to teaching</li>
+</ul>
 <h3 id="stick-to-the-lesson-material">7. Stick to the lesson material</h3>
+<ul>
+<li>lessons have been tried and tests through many iterations and versions</li>
+<li>it's solid stuff</li>
+<li>resist the urge to show a 'neat trick' that might land you in a hole</li>
+<li>if you want to add something test it out prior</li>
+</ul>
 <h3 id="leave-no-learner-behind">8. Leave no learner behind</h3>
+<ul>
+<li>sticky notes signalling typically red and green</li>
+<li>status flags - red means stuck on something and need help, green 'all done'
+<ul>
+<li>better than hand raising: more discreet (more likely to be done)</li>
+<li>they can keep working with a flags</li>
+<li>instructor can see them and direct helpers</li>
+</ul></li>
+</ul>
 <h3 id="embrace-mistakes">9. Embrace mistakes</h3>
+<ul>
+<li>you'll start looking forward to mistakes</li>
+<li>allows learners to see instructors mistakes and how to diagnose/correct</li>
+</ul>
 <h3 id="have-fun">10. Have fun</h3>
+<ul>
+<li>personalize the intruction</li>
+</ul>
+<p>Challenge - See Then Do Pair up. Teach 3-4 minutes of your chosen lesson episode using live coding to a fellow trainee, then swap and watch while that person live codes for you. Don’t record the live coding sessions. Give each other feedback using the two x two rubric we discussed previously and enter your feedback in the GDoc. Explain in advance to your fellow trainee what you will be teaching and what the learners you teach it to are expected to be familiar with.</p>
+<p>This exercise should take about 20 minutes.</p>
+<hr />
+<h2 id="maybe-ask-this-instead-of-getting-to-put-in-gdoc.">maybe ask this instead of getting to put in gdoc.</h2>
+<ul>
+<li>What felt different about live coding (vs. standing up and lecturing)? What was harder/easier?</li>
+<li>Did you make any mistakes? If so, how did you handle them?</li>
+<li>Did you talk and type at the same time, or alternate?</li>
+<li>How often did you point at the screen? How often did you highlight with the mouse?</li>
+<li>What will you try to do differently next time?</li>
+</ul>
+<h2 id="wrap-up-talk">Wrap up talk</h2>
+<p>Ok, to wrap up this section, we've found in SWC: * that watching instructors write software is more compelling and informative than being presented with a finished product. * that Live coding allows instructors to follow learners. * The mistakes are the pedagogy.</p>
             </div>
     </div>
   </div>
