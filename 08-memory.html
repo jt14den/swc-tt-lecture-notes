@@ -58,9 +58,11 @@
 <h2 id="connectivity">Connectivity</h2>
 <ul>
 <li>Earlier we described the key differences between novices and competent practitioners</li>
-<li>What makes experts different from either?</li>
+<li>What makes experts different from either?
+<ul>
 <li>The answer: <strong>NOT that they know more facts</strong></li>
 <li>Competent practitioners (&amp; novices) can memorize a lot of trivia without notable improvement to their performance</li>
+</ul></li>
 </ul>
 <p><strong>To illustrate</strong>, imagine that we store knowledge as a graph: * facts are nodes and relationships are arcs (Note: this is not how our brains work, but it's a metaphor) * key difference between experts and people who are &quot;merely competent&quot; is that experts have more connected nodes (their mental models are more densely connected)</p>
 <p><strong>Think about driving around a city, comparing what it's like for the local and for the out-of-town driver.</strong></p>
@@ -103,12 +105,12 @@
 <li>the Graph view of knowledge explains why helping learners make connections is as important as introducing them to facts.</li>
 <li>the more people you know in a group, the more likely you are to remain part of that group.</li>
 <li>the more connections a fact has to other facts, the more likely it will be remembered</li>
-<li><p>this builds on our earlier idea of mental models - a mental model is a way to facilitate making connections between separate facts.</p></li>
+<li><p>this builds on our earlier idea of mental models - <strong>a mental model is a way to facilitate making connections between separate facts.</strong></p></li>
 </ul>
 <h2 id="concept-maps">Concept Maps</h2>
-<p>A TOOL of choice to represent an expert's knowledge graph is the <em>concept map</em>.</p>
+<p>A TOOL of choice to represent an expert's knowledge graph is the <strong><em>concept map</em></strong>.</p>
 <dl>
-<dt>Concept map</dt>
+<dt><strong>Concept map</strong></dt>
 <dd>is simply a picture of someone's mental model of a domain - facts are bubbles, and connections are labelled arcs
 </dd>
 </dl>
@@ -116,26 +118,26 @@
 <li>It's important that the arcs are labelled: saying &quot;X and Y are related&quot; is only helpful if we explain what the relationship is.</li>
 <li>YES, one person's fact may be another's connection, but by <em>externalizing cognition</em> (making these model's visable), concept maps help spark and focus discussion</li>
 <li><strong>TIP</strong> concepts maps are just one way to represent our understanding of a subject: flowcharts, decision trees, blueprints can be v. useful in diff. contexts</li>
-<li>(skip) For example, this diagram (taken from a <a href="http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html">blog post</a> by Andrew Abela) is an excellent way to organize and present an understanding of how to choose the right kinds of chart for displaying different kinds of data.</li>
 <li><p>To show what this looks like consider this map of dataframe piping in R (tidyverse):</p></li>
 <li><a href="https://awwapp.com/b/ufqzvm01v/" class="uri">https://awwapp.com/b/ufqzvm01v/</a> (teacher copy)</li>
 <li><p><a href="https://awwapp.com/b/sidndlp8o" class="uri">https://awwapp.com/b/sidndlp8o</a> (each will get copy)</p></li>
 <li><p><a href="https://s3.amazonaws.com/aww-imagedata/11006a44-252a-4cd5-bf0d-8f7eedafddf1.png" class="uri">https://s3.amazonaws.com/aww-imagedata/11006a44-252a-4cd5-bf0d-8f7eedafddf1.png</a> (image)</p></li>
-<li>There are 9 concepts in this map: dataframe, pipeline, operations, filter, select, grouby, intermediate dataframe, output, Rconsole and variable</li>
-<li>Then we 6 relationships.</li>
-<li>This gives us a total of 15, which is more than our ideal size for a single episode.</li>
+<li>There are 13 concepts in this map: pipeline, filters, processes, pip command, input, output, stdin, stdout, file, output</li>
+<li>Then we 10 relationships.</li>
+<li>This gives us a total of 23, which is more than our ideal size for a single episode.</li>
 <li>This map should probably be broken up into two graphs and further developed.</li>
-<li><p>For instance, the operations that are listed could probably be worked on to add more relationships.</p></li>
+<li><p>For instance, we can see that we need to introduce filters and processes before piping - this probably need an episode by themselves</p></li>
 <li>many concept maps can be larger than the recommended limit (7+-2), but that's not a bad thing <a href="https://swcarpentry.github.io/instructor-training/fig/dict-set.png">Set and Dict example</a></li>
 <li><p>after drawing a concept map for an entire subject, the lesson designer can carve out a tightly-connected sub-graphs to make individual episodes</p></li>
 </ul>
 <p><strong>Concept maps can be used in many ways:</strong></p>
 <ol style="list-style-type: decimal">
-<li>To aid <strong>solo design</strong> of a lesson by helping authors figure out what they're trying to teach. Crucially a concept map <strong>separates content from order</strong>: in our experience ppl rarely wind up teaching things in order in which they first drew them</li>
+<li>To aid <strong>solo design</strong> of a lesson by helping authors <strong>figure out what they're trying to teach</strong>. Crucially a concept map <strong>separates content from order</strong>: in our experience ppl rarely wind up teaching things in order in which they first drew them</li>
 <li>They aid in communication with other lesson designers. Instructors with different ideas often pull their learners in different directions.</li>
 <li>Concept maps <strong>help learners</strong>. When possible give learners a pre-drawn map at the beginning of a lesson for them to annotate, it's better to draw piece by piece while teaching to reinforce the ties between what's in the map and what the instructor said.</li>
-<li>Concept maps are also useful <strong>formative assessment tool</strong>: have learners draw concept maps of what they think they just heard shows the instructor what was missed and what was mis-understood. (Reviewing concepts maps too time consuming for use in workshops, but v. useful in weekly lectures <em>once learners are familiar with the technique</em>: as <a href="http://www.amazon.com/Facts-Fallacies-Software-Engineering-Robert/dp/0321117425/">Philip Glass observed</a> a new tool or technique initially slows ppl down.)</li>
+<li>Concept maps are also useful <strong>formative assessment tool</strong>: have learners draw concept maps of what they think they just heard shows the instructor what was missed and what was mis-understood. often too long in time for swc workshops</li>
 </ol>
+<h3 id="other-uses">other uses</h3>
 <p><strong>Concept maps</strong> are also useful for: team meetings -- give everyone a sheet of paper and have them draw a concept map of the project you're all working on -- separately. On the count of three, have everyone reveal their maps. Discuss!</p>
 <p><strong>Concept maps</strong> also a good way to organize one's thought before putting together a talk or writing a paper. They allow us to <em>externalize cognition</em>, i.e. get out thoughts out where we can see them - contradictions and all.</p>
 <blockquote>
@@ -143,7 +145,7 @@
 <p>Create a hand drawn concept map for something you would teach in five minutes. (Possibly for the same subject that you used to create a multiple choice question before.) Trade with a partner, and critique each other’s maps. Do they present concepts or surface detail? Which of the relationships in your partner’s map do you consider concepts and vice versa?</p>
 </blockquote>
 <blockquote>
-<p>Take 10 minutes to draw the concept maps and share with your neighbor. Write done in the chat once you have finished.</p>
+<p>Take 10 minutes to draw the concept maps and share with your neighbor. Write done in the chat once you have finished. ASk how it went?</p>
 </blockquote>
 <h2 id="seven-two">Seven ± Two</h2>
 <blockquote>
@@ -165,7 +167,7 @@
 <li>Evolution has given us a second system called <em>short-term</em> or <em>working memory</em>
 <ul>
 <li>it is much faster but smaller: in 1956 George Miller estimated that the average adult's working memory could hold <a href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">7±2</a></li>
-<li>this is why phone numbers are typically 7 or 8 digits</li>
+<li>this is why phone numbers have a limit of typically 7 or 8 digits</li>
 <li>back when phones had dials not keyboards, that was the longest string of numbers most adults could remember accurately for as long as it took to dial to go round and round.</li>
 <li>also why sports teams tend to have about half a dozen members or are broken into smaller groups (such as forwards and backs in rugby)</li>
 </ul></li>

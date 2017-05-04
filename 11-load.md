@@ -28,19 +28,19 @@ date: 2017-04-23
     * Kirshcher and authors' argument was that learners need to simultaneously master a **domain's factual content** and its **search and problem solving strategies**.
     * And although fostering creativity and independence is intuitively alluring, it doesn't mean that it works
 
-  * Sweller (a co-author on the paper - *Why minimal guidance during instruction doesn't work*) proposed an alternative based on the theory of **[cognitive load](https://en.wikipedia.org/wiki/Cognitive_load)**
-  * this theory postulates:
-    1. **intrinsic load** is what they (learners) have to keep in mind in order to carry out a learning task
-    2. **germane load** is (the desirable) mental effort required to create linkages between new information coming in and old information we already have (**germane load** is one of the things that distinguishes learning from **rote memorization**)
-    3. **extraneous load** is everything else that distracts or gets in the way
+* Sweller (a co-author on the paper - *Why minimal guidance during instruction doesn't work*) proposed an alternative based on the theory of **[cognitive load](https://en.wikipedia.org/wiki/Cognitive_load)**
+    * this theory postulates:
+      1. **intrinsic load** is what they (learners) have to keep in mind in order to carry out a learning task
+      2. **germane load** is (the desirable) mental effort required to create linkages between new information coming in and old information we already have (**germane load** is one of the things that distinguishes learning from **rote memorization**)
+      3. **extraneous load** is everything else that distracts or gets in the way
 
-  * **cognitive load theory's** proponents claim that eliminating extraneous cognitive load accelerates learning
+  * **cognitive load theory's** proponents claim that eliminating **extraneous cognitive load** accelerates learning
       * it also has [been criticized](https://edtechdev.wordpress.com/2009/11/16/cognitive-load-theory-failure/), most particularly for being unfalsifiable or un-confirmable.
       * critics say that since there's no way to tell in advance of an experiment whether something is **germane or not**, any result can be justified after the fact just by labelling what hurt performance as "extraneous" and things that don't (or enhance/enable) as "germane".
 
 **With this said, however, some predictions *can* be made:**
 
-* One example is Moreno and Mayer's work on the [split-attention effect](https://en.wikipedia.org/wiki/Split_attention_effect)
+*  [split-attention effect](https://en.wikipedia.org/wiki/Split_attention_effect)
     * Linguistic and visual input are processed by different parts of the human brain, and linguistic and visual memories are stored separately too.
     * this means that correlating **different linguistic, auditory and visual streams of info takes cognitive work**:
         * when someone reads one thing while hearing something else spoken aloud, their brain can't help but check that it's getting the same info in both channels
