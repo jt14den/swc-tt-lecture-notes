@@ -26,6 +26,7 @@ date: 2017-04-23
     * Competent practitioners (& novices) can memorize a lot of trivia without notable improvement to their performance
 
 **To illustrate**, imagine that we store knowledge as a graph:
+
 * facts are nodes and relationships are arcs (Note: this is not how our brains work, but it's a metaphor)
 * key difference between experts and people who are "merely competent" is that experts have more connected nodes (their mental models are more densely connected)
 
@@ -102,7 +103,7 @@ A TOOL of choice to represent an expert's knowledge graph is the ***concept map*
 >Create a hand drawn concept map for something you would teach in five minutes. (Possibly for the same subject that you used to create a multiple choice question before.) Trade with a partner, and critique each other’s maps. Do they present concepts or surface detail? Which of the relationships in your partner’s map do you consider concepts and vice versa?
 
 >Take 10 minutes to draw the concept maps and share with your neighbor. Write done in the chat once you have finished.
-> ASk how it went? 
+> ASk how it went?
 
 ## Seven ± Two
 
