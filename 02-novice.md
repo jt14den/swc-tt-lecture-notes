@@ -8,62 +8,65 @@ date: 2017-04-23
 
 **set timer for 65 minutes**
 
-1. **[Novices and Formative Assessment](02-novice) (20/45m)**
-2. [Expertise and Memory](08-memory) (30/15m)
-3. [Cognitive Load](11-load) (20/20m)
-4. [Live Coding](13-live) (30/45m)
-5. [Lessons and Objectives](19-lessons) (30/20m)
-
+* <https://carpentries.github.io/instructor-training/11-practice-teaching/>
+* <https://carpentries.github.io/instructor-training/11-practice-teaching/>
 
 ## Pedagogical model
 
-* aim is to teachcomputataion ompetence to learners
+* aim is to teach computataion competence to learners
 * we take an applied approach: we show learners how to solve specific problems with specific tools
 * learners practice in real-time, get feedback & apply that feedback to next lesson
-* Interactive event! for learners and instructors - feeback all day
+* workshop is an Interactive event! for learners and instructors
   - provide feedback to learners throughout the workshops in order to get them unstuckor provide a greater depth of understanding
-  - iterative,feedback on stickies, able tosee where learners are stuck, help un stick
+  - iterative,feedback on stickies, able to see where learners are stuck, help un stick
 
 ## Acquisition of skill
 
-* our appoach is based on benner studies of nurses
-* through practice and formal instruction, learners acquire skills
+* our appoach is based on work of researchers like Benner who studied how nurses progress from newbie to experts
+* finds that through practice and formal instruction, learners acquire skills
 * This model has three stages:
   1. **novice** is someone who doesn't know what they don't know
-    * has not built a mental model of a domain or how elements of the domain relate
+    * hasn't built a mental model of a domain or how elements of the domain relate
     * often reason by **analogy and guesswork**, misapply other parts of other domains to the new one
     * novice learner might never have heard of bash shell, or how it relates to file system and other programs on their computers
   2. **competent practitioner** has a mental model good enough for everyday purposes: Not completely accurate, but useful
-    * might have usd shell before and understand how to move around
+    * might have used the **shell** before and understand how to move around
     * can do normal tasks with normal effort under normal circumstances
   3. **expert** can easily handle situations that are **non-normative**
-    1. Problem solving and applying
+    1. Problem solving and applying concepts to make a solution
 
 ## Cognitive Development & Mental Models
 
 * Effective learning is facilitated by the **creation of mental models of a domain**
-* What do we mean by mental model? **Anybody have an idea?**
-  * Long term resident of SA advanced understanding of the location of SA provinces, major cities and landmarks, weather patterns, regional economies
+* But what do we mean by mental model? **Anybody have an idea?**
+* MM is a collection of **concepts** and **facts**, along with **relationships** between those concepts relationships (whiteboard)
+  - dataset, project, rows, columns, records, text facet, cluster, transformation, reconciliation
+  * for instance: Long term resident of SA advanced understanding of the location of SA provinces, major cities and landmarks, weather patterns, regional economies
   * as well as relationships b/t these entities
-  * their mental model of SA is more complex compared to say mine
+  * those of you from SA's mental model of SA is more complex compared to say mine
   * I don't have any idea why joburg had rain yesterday and cape town is in drought conditions - i also am probably misapplying my understanding of weather in the US this Context.
 
 >## (Exercise) Your mental models (in gdocs
->Write your primary research domain or area of expertise and one mental model you use to frame and understand your work? This discussion should take about 5 minutes.
->
+>In the Etherpad, under your name write your primary research domain or area of expertise and some aspects of the mental model you use to frame and understand your work. What concepts/facts are included? What types of relationships are included?
+> This discussion should take about 5 minutes.
 >
 > Me - Work in the library provide data services - help researchers and students with their research, provide instructions on tools that make them more productive, small town doctor - put up shingle, help researchers and students with data problems
 >
 >Review some of the models, get ppl to talk about them
 
+* **key insight** from research on cognitive development: novices, competent practicioners, and experts need to be taught differently
+  - in particular presenting novices with a pile of facts early on is counter-productive. **Why do you thing????**
+  - they don't yet have a framework to put that into yet
+  - can reinforce incorrect model
 * **We assume most learners coming to SW/D/LC workshop are novices** and do not have strong mental models for the concepts we teach
-* Our **primary goal** is not to teach syntax of code, but to *help them construct a working mental model* so they have something to attach facts to.
+* Our **primary goal** is not to teach syntax of code, but to *help novices construct a working mental model* so they have something to attach facts to. add 'text facet': invert, edit, count, etc.; cluster: key collision -> fingerprint, n-gram fingerprint; nearest neighbor methods
 * teach people **how to think** about programming and data management
   * AND about using **computers in research** more generally
 
 ## WHY GO SLOW - Why we go slowly
 
-> if someone feels it's too slow, they'll be a bit bored. if they feel it's too fast, they'll never come back to programming. kunal marwaha, swc instructor
+> if someone feels it's too slow, they'll be a bit bored. if they feel it's too fast, they'll never come back to programming.
+> - skunal marwaha, swc instructor
 
 * Going from **novice to competent practitioners** involves the construction of right (enough) categories:
     * building a new mental model of this new intellectual domain
@@ -71,25 +74,26 @@ date: 2017-04-23
     * **until** they've done that trying to load information on them **confuses more than educates**
 
 * An example of the practical implications of this:
-    * our Unix lesson only introduces **12 commands** and typically spends 2.5 hours to cover
-    * **12 1/2 minutes per command** may seem very slow, but the lesson's real purpose is to teach learners about paths, history, wildcards, pipes and filters, command-line arguments, redirection and the other big ideas the shell depends on (and without which ppl can't understand how to use commands or read their manual pages).
-    * That model also includes:
-    1. DRY - anything you **repeat manually**, you'll ultimately get wrong (so make the computer repeat things for you by using **tab completion** and the **history command**)
-    2. **Lots of little tools**, combined as needed, are more productive than a handful of "kitchen sink" programs (motivates the pipe-and-filter model and segues to functions)
-
+  * our Unix lesson only introduces **16 commands** and typically spends 2.5 hours to cover
+  * **11 minutes per command** may seem very slow, but the lesson's real purpose is to teach learners about **paths, history, wildcards, pipes and filters, command-line arguments, redirection** and the other big ideas the shell depends on (and without which ppl can't understand how to use commands or even read the manual or help pages).
+* That model also includes:
+    1. DRY - anything you **repeat manually**, you'll ultimately get wrong (so make the computer repeat things for you by using **tab completion**, **history command** and **for loops**)
+    1. **Lots of little tools**, combined as needed, are more productive than a handful of "kitchen sink" programs (motivates the pipe-and-filter model and segues to functions) than a handful of "kitchen sink" programs (motivates the pipe-and-filter model and segues to functions)
 
 * These two examples illustrates something else as well.
-* Learning consists of more than **just** building mental models & pouring in information
-    * THAT **creating linkages between concepts** and facts is as important
-    * Telling people not to repeat things, and they should think in terms of little pieces loosely joined
-        * Both set the stage for **introducing functions**
-        * Explicitly referring back to **pipes and filters** when introducing functions helps solidify both ideas
+* Learning consists of more than **just** building **mental models & pouring in information**
+* THAT **creating linkages between concepts** and facts is as important
+* Telling people not to repeat things, and they should think in terms of little pieces loosely joined
+* Both set the stage for **introducing functions**
+* Explicitly referring back to **pipes and filters** when introducing functions helps solidify both ideas
 
 ## How knowledge gets in the way
 
 * There are many **positive** strategies for building mental models: analogies, stories, role-play, and diagrams are ways to represent a structure that can be used as a model
 
 * **However** there's a greater challenges to creating mental models:
+
+![Twain](https://static1.squarespace.com/static/56eddde762cd9413e151ac92/t/570cb8885bd33022b93a181b/1460466440544/intaintwhatyouknow.jpg)
 
 > It ain't what you don't know that gets you into trouble.
 > It's what you know for sure that just ain't so.
@@ -101,9 +105,10 @@ date: 2017-04-23
     * **Broken models**, believing that motion and acceleration must be in the same direction. We can address these by having them reason through examples to see contradictions.
     * **Fundamental beliefs**, such as "the world is only a few thousand years old" or "human beings cannot be affecting the planet's climate". These usually cannot be addressed in class, since they are deeply connected to the learner's social identity and often cannot be reasoned away.
 
->Do you have any examples of "broken or misapplied models" you'd like to share? Do you remember how it got corrected?
+>> teaching R -> Stata
+> driving on the wrong side of the road here -- looking the wrong way crossing the street, getting in wrong side.
 >
-> teaching R -> Stata
+>Do you have any examples of "broken or misapplied models" you'd like to share? Do you remember how it got corrected?
 
 * Since SW & D Carpentry are focused on novices, and helping build strong mental models, we're most interested in the middle category of misconceptions (broken models)
 * During teaching, we want to **expose broken models** so that we can diagnose and provide better ones.
@@ -111,9 +116,8 @@ date: 2017-04-23
 ## Identifying and correcting misconceptions
 
 ### ask the questions?
-* What do you think we can do to surface these misconceptions, especially in how they related to mental models.???
-* How can we do this in-class and know whether learners already understand the topic? (so we can move forward)
-* and if not, what we need to address in their misconceptions?
+* What do you think we can do to **surface these misconceptions**, especially in how they related to mental models?
+* How can we do this in-class so we know whether learners already understand the topic?
 
 * **we as instructors** need feedback on learners' progress and insight into their mental models
 * This is usually done through two kinds of assessments:
@@ -124,7 +128,8 @@ date: 2017-04-23
         * main purpose: to guide by telling both instructor and learner what to focus on
         * not pass or fail
         * e.g. a music teacher might ask a student to play a scale very slowly to see if she is breathing correctly and if not correct
-        * secondary purpose is to prepare learners for summative assessments: don't test what wasn't in the lesson
+        * another purpose is to prepare learners for summative assessments: don't test what wasn't in the lesson
+        * v. important in telling learners what they don't know - something that is often hard for learners to determine (mass study - cramming, rereading, highlighting)
         * any examples?
 
 * For us, we are **mostly concerned** with formative assessments
@@ -190,8 +195,7 @@ PUT in doc:
 1. instructors should use MCQs or some of the kind of formative assessment (coding challenge) at least every 10-15 min to insure the class is learning
 2. when you give an exercise in S/D/L carpentry, circle the room or have your helpers - use the sticky notes to find folks having difficulty - typically there's a pattern -- talk with your helpers, share
 3. formative assessments can also be used preemptively:
-4. if you start an episode or section with an MCQ and everyone gets it, you can skip the part of the lecture
-
+4. if you start an episode or section with an MCQ and everyone gets it, you can skip the part of the lecture - studies have shown this acts to prime the pump on your brain to being receptive learning -- getting things wrong critical to learning
 
 > ## (Exercise) Modeling Novice Mental Models
 >
@@ -204,8 +208,7 @@ PUT in doc:
 >
 > *   A good MCQ tests for conceptual misunderstanding rather than simple factual knowledge.
 >     If you are having a hard time coming up with diagnostic distractors,
->     then either you need to think more about your learners' mental models,
->     or your question simply isn't a good starting point for an MCQ.
+>     then either you need to think more about your learners' mental models, or your question simply isn't a good starting point for an MCQ.
 > *   When you are trying to come up with distractors,
 >     think about questions that learners asked or problems they had
 >     the last time you taught this subject.
@@ -244,29 +247,6 @@ and see the topic from their point of view.
   * Expert: can handle **edge cases**.
   * Goal when teaching novices is to help them **construct a usable mental model**.
   * To do this, must **clear up their misconceptions** in their prior knowledge.
-  * **Summative assessment**: done at the end of teaching to see whether learning took place.
+  * **Summative assessment**: done at the end of a class to see whether learning took place.
   * **Formative assessment**: done during teaching to guide learning.
   * Can use **multiple choice questions (MCQs)** as formative assessments to diagnose misconceptions.
-
-[amazon-babt]: http://www.amazon.com/Building-Better-Teacher-Teaching-Everyone/dp/0393081591
-[amazon-benner]: http://www.amazon.com/Novice-Expert-Excellence-Clinical-Practice/dp/020100299X/
-[amazon-hlw]: http://www.amazon.com/How-Learning-Works-Research-Based-Jossey-Bass/dp/0470484101/
-[amazon-kr-c]: http://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/
-[amazon-sql-vsg]: http://www.amazon.com/SQL-Visual-QuickStart-Guide-3rd/dp/0321553578/
-[amazon-statistics]: http://www.amazon.com/Teaching-Statistics-Tricks-Andrew-Gelman/dp/0198572247/
-[amazon-thinking-physics]: http://www.amazon.com/Thinking-Physics-Understandable-Practical-Reality/dp/0935218084/r
-[amazon-unix-vsg]: http://www.amazon.com/Unix-Linux-Visual-QuickStart-Guide/dp/0321997549/
-[amazon-upe]: http://www.amazon.com/Unix-Programming-Environment-Prentice-Hall-Software/dp/013937681X/
-[cs-teaching-tips]: http://csteachingtips.org/
-[learning-theories]: http://www.learning-theories.com/
-[peer-instruction-video]: https://www.youtube.com/watch?t=1&v=2LbuoxAy56o
-[swc-shell-novice]: http://swcarpentry.github.io/shell-novice/
-[wikipedia-cop]: https://en.wikipedia.org/wiki/Community_of_practice
-[wikipedia-dreyfus-skill]: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition
-[wikipedia-fci]: https://en.wikipedia.org/wiki/Force_Concept_Inventory
-[wikipedia-grounded-theory]: https://en.wikipedia.org/wiki/Grounded_theory
-[wikipedia-peer-instruction]: https://en.wikipedia.org/wiki/Peer_instruction
-[wikipedia-peripheral]: https://en.wikipedia.org/wiki/Legitimate_peripheral_participation
-[wikipedia-phonics]: http://en.wikipedia.org/wiki/Phonics
-[wikipedia-situated-learning]: https://en.wikipedia.org/wiki/Situated_learning
-[wikipedia-whole-language]: http://en.wikipedia.org/wiki/Whole_language
