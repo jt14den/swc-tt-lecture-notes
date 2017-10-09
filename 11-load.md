@@ -4,15 +4,16 @@ title: "Cognitive Load"
 date: 2017-04-23
 ---
 
-1. [Novices and Formative Assessment](02-novice) (20/45m)
-2. [Expertise and Memory](08-memory) (30/15m)
-3. **[Cognitive Load](11-load) (20/20m)**
-4. [Live Coding](13-live) (30/45m)
-5. [Lessons and Objectives](19-lessons) (30/20m)
-
 **set timer for 40 minutes**
-
-## Start
+## Types of Memory
+https://carpentries.github.io/instructor-training/05-memory/#types-of-memory
+## Strategies For Memory Management
+https://carpentries.github.io/instructor-training/05-memory/#strategies-for-memory-management
+## Formative Assessment
+https://carpentries.github.io/instructor-training/05-memory/#formative-assessment
+## Concept Maps as Instructional Planning Tools
+https://carpentries.github.io/instructor-training/05-memory/#concept-maps-as-instructional-planning-tools
+## Why Guided Practice is Important
 
 * Our final topic in educational psychology, we'll be learning about human memory -- specifically how to remove unnecessary 'load' in order to facilitate learning.
 
@@ -48,83 +49,73 @@ date: 2017-04-23
     * **THEREFORE** learning is more effective when information that is being presented simultaneously in different channels is the same
     * **for our workshops** this means the instructor should say out loud commands as they type them on the screen during live coding.
 
-## Faded Examples
 
-* Per **cognitive load theory**, searching for a solution strategy can be an extra burden on top of applying that strategy
-* we can therefore accelerate learning by giving learners **worked examples** that show them a problem and a detailed **step-by-step solution**, followed by a series of ***faded examples***
-* the first example presents a nearly-complete use of the same problem-solving strategy just demonstrated with a small number of blanks for the learner to fill in
-* the next problem is also of the same type, but has more blanks, and *so on* until the learner is asked to solve the entire problem.
+    ## Faded Examples
 
-* **faded examples** work because they introduce the **problem-solving** strategy piece by piece
-* each step learners have one new problem to tackle
-* this is less intimidating than a blank screen or a blank sheet of paper
-* it encourages learners to think about similarities and differences between various approaches, which helps create linkages in the mental model that is trying to be relayed
+    * Per **cognitive load theory**, searching for a solution strategy can be an extra burden on top of applying that strategy
+    * we can therefore accelerate learning by giving learners **worked examples** that show them a problem and a detailed **step-by-step solution**, followed by a series of ***faded examples***
+    * the first example presents a nearly-complete use of the same problem-solving strategy just demonstrated with a small number of blanks for the learner to fill in
+    * the next problem is also of the same type, but has more blanks, and *so on* until the learner is asked to solve the entire problem.
 
-* For example, someone teaching in Python start by explaining this:
+    * **faded examples** work because they introduce the **problem-solving** strategy piece by piece
+    * each step learners have one new problem to tackle
+    * this is less intimidating than a blank screen or a blank sheet of paper
+    * it encourages learners to think about similarities and differences between various approaches, which helps create linkages in the mental model that is trying to be relayed
 
-```python
-#total_length(["red", "green", "blue"]) => 12
-def total_length(words):
-  total = 0
-  for word in words:
-    total += len(word)
-  return total
-```
+    * For example, someone teaching in Python start by explaining this:
 
-* then **ask** learners to fill in the blanks in this:
+    ```python
+    #total_length(["red", "green", "blue"]) => 12
+    def total_length(words):
+      total = 0
+      for word in words:
+        total += len(word)
+      return total
+    ```
 
-```python
-# word_lengths(["red", "green", "blue"]) => [3, 5, 4]
-def word_lengths(words):
-    lengths = ____
-    for word in words:
-        lengths ____
-    return lengths
-```
-Another step of fading might be this:
+    * then **ask** learners to fill in the blanks in this:
 
-```python
-# concatenate_all(["red", "green", "blue"]) => "redgreenblue"
-def concatenate_all(words):
-    result = ____
-    for ____ in ____:
+    ```python
+    # word_lengths(["red", "green", "blue"]) => [3, 5, 4]
+    def word_lengths(words):
+        lengths = ____
+        for word in words:
+            lengths ____
+        return lengths
+    ```
+    Another step of fading might be this:
+
+    ```python
+    # concatenate_all(["red", "green", "blue"]) => "redgreenblue"
+    def concatenate_all(words):
+        result = ____
+        for ____ in ____:
+            ____
+        return result
+    ```
+
+    and finally learners would be asked to do:
+
+    ```python
+    # acronymize(["red", "green", "blue"]) => "RGB"
+    def acronymize(words):
         ____
-    return result
-```
+    ```
 
-and finally learners would be asked to do:
+    * When using faded examples:
+        * it's key to think about the **problem-solving strategy or solution pattern** that is meant to be taught
+        * the example above is illustrating the ***accumulator pattern*** in which the results of **processing items in a collection** are repeatedly added to a single variable in some way to create the final result
 
-```python
-# acronymize(["red", "green", "blue"]) => "RGB"
-def acronymize(words):
-    ____
-```
+    >##Create a Faded Example from a Lesson
+    >The following exercise should be done in groups of 2-3.
 
-* When using faded examples:
-    * it's key to think about the **problem-solving strategy or solution pattern** that is meant to be taught
-    * the example above is illustrating the ***accumulator pattern*** in which the results of **processing items in a collection** are repeatedly added to a single variable in some way to create the final result
+    >Pick a block of code from an existing Software or Data Carpentry lesson, or from another lesson you have taught recently.
+    >Replace 2-3 pieces of the code with a blank.
+    >Write a question to test the student’s ability to correctly fill in that blank.
+    >Take 10 minutes for this exercise.
+    >Paste your faded example in the Etherpad.
 
->##Create a Faded Example from a Lesson
->The following exercise should be done in groups of 2-3.
+## Summary
 
->Pick a block of code from an existing Software or Data Carpentry lesson, or from another lesson you have taught recently.
->Replace 2-3 pieces of the code with a blank.
->Write a question to test the student’s ability to correctly fill in that blank.
->Take 10 minutes for this exercise.
->Paste your faded example in the Etherpad.
-
-## Parson Problems
-
-* Another way to reduce cognitive load is using **Parson Problems**
-* In this case, learners are presented with jumbled parts of a solution and asked to put them in order
-* Example: when learning a language students could be asked to order a set of words to create a grammatically correct response to a question
-* Our learners can be given lines of the code needed to solve a problem and asked to arrange them.
-* Then learners can be told they have all the lines they need **except one** and so forth.
-
-* Here's a nice online Parson Problem interactive tool.
-
->## Parson Problems
->Pick a block of code from an existing Software or Data >2. Carpentry lesson, or from another lesson you have taught recently.
->3. Jumble the code
->4. Paste your jumbled code block into the etherpad
->5. Determine the correct order of your partner’s else’s code block
+---
+old

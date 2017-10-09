@@ -13,9 +13,9 @@ date: 2017-04-23
 
 ## Pedagogical model
 
-* aim is to teach computataion competence to learners
-* we take an applied approach: we show learners how to solve specific problems with specific tools
-* learners practice in real-time, get feedback & apply that feedback to next lesson
+* aim is to teach **computataion competence** to learners
+* we take an **applied approach**: we show learners how to solve specific problems with specific tools
+* learners practice in **real-time**, get **feedback** & **apply** that feedback to next lesson
 * workshop is an Interactive event! for learners and instructors
   - provide feedback to learners throughout the workshops in order to get them unstuckor provide a greater depth of understanding
   - iterative,feedback on stickies, able to see where learners are stuck, help un stick
