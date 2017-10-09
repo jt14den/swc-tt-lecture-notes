@@ -15,19 +15,40 @@ date: 2017-04-23
 5. [Lessons and Objectives](19-lessons) (30/20m)
 
 
-## Start
+## Pedagogical model
 
-* Let's get started by learning some theory, how it relates to SWC and putting the theory into practice in our workshops.
+* aim is to teachcomputataion ompetence to learners
+* we take an applied approach: we show learners how to solve specific problems with specific tools
+* learners practice in real-time, get feedback & apply that feedback to next lesson
+* Interactive event! for learners and instructors - feeback all day
+  - provide feedback to learners throughout the workshops in order to get them unstuckor provide a greater depth of understanding
+  - iterative,feedback on stickies, able tosee where learners are stuck, help un stick
 
-### Cognitive Development & Mental Models
+## Acquisition of skill
+
+* our appoach is based on benner studies of nurses
+* through practice and formal instruction, learners acquire skills
+* This model has three stages:
+  1. **novice** is someone who doesn't know what they don't know
+    * has not built a mental model of a domain or how elements of the domain relate
+    * often reason by **analogy and guesswork**, misapply other parts of other domains to the new one
+    * novice learner might never have heard of bash shell, or how it relates to file system and other programs on their computers
+  2. **competent practitioner** has a mental model good enough for everyday purposes: Not completely accurate, but useful
+    * might have usd shell before and understand how to move around
+    * can do normal tasks with normal effort under normal circumstances
+  3. **expert** can easily handle situations that are **non-normative**
+    1. Problem solving and applying
+
+## Cognitive Development & Mental Models
 
 * Effective learning is facilitated by the **creation of mental models of a domain**
-* What do we mean by mental model? Anybody have an idea?
-    * One example: many of us learned that the ball-and-spring model of  molecules
-    * molecules aren't balls; their bonds not springs
-    * but the model does a good job of helping people reason about molecules, chemical compounds and their reactions to one another
+* What do we mean by mental model? **Anybody have an idea?**
+  * Long term resident of SA advanced understanding of the location of SA provinces, major cities and landmarks, weather patterns, regional economies
+  * as well as relationships b/t these entities
+  * their mental model of SA is more complex compared to say mine
+  * I don't have any idea why joburg had rain yesterday and cape town is in drought conditions - i also am probably misapplying my understanding of weather in the US this Context.
 
->## (Exercise) Your mental models (in gdocs <>)
+>## (Exercise) Your mental models (in gdocs
 >Write your primary research domain or area of expertise and one mental model you use to frame and understand your work? This discussion should take about 5 minutes.
 >
 >
@@ -35,44 +56,19 @@ date: 2017-04-23
 >
 >Review some of the models, get ppl to talk about them
 
-* One way to think about the difference b/t **novice and "competent practicioner"** is the existence of the **big picture** mental model
-  * See: Brenner, who applied the [Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) in studies on how nurses progress from novice -> expert
-* This model has three stages:
-  1. **novice** is someone who doesn't know what they don't know
-    * has not built a mental model of a domain or how elements of the domain relate
-    * often reason by **analogy and guesswork**, misapply other parts of other domains to the new one
-    * signature of novice is their questions **aren't even wrong**
-  2. **competent practitioner** has a mental model good enough for everyday purposes: Not completely accurate, but useful
-    * e.g. average drivers mental model of a working car typically doesn't include the complexity of what a mechanic knows
-    * can do normal tasks with normal effort under normal circumstances
-  3. **expert** can easily handle situations that are non-normative
-
 * **We assume most learners coming to SW/D/LC workshop are novices** and do not have strong mental models for the concepts we teach
-* Our **primary goal** is not to teach syntax of a particular programming language, but to teach people how to think about programming and data management
+* Our **primary goal** is not to teach syntax of code, but to *help them construct a working mental model* so they have something to attach facts to.
+* teach people **how to think** about programming and data management
   * AND about using **computers in research** more generally
 
 ## WHY GO SLOW - Why we go slowly
 
-* The transition from **novice to competent practitioners** involves the construction of right (enough) categories:
+> if someone feels it's too slow, they'll be a bit bored. if they feel it's too fast, they'll never come back to programming. kunal marwaha, swc instructor
+
+* Going from **novice to competent practitioners** involves the construction of right (enough) categories:
     * building a new mental model of this new intellectual domain
     * goal of education for novices is to help them form correct categories
     * **until** they've done that trying to load information on them **confuses more than educates**
-
->## (Discussion) Manual v. Tutorials
->Programming books are often categorized into *reference manuals* and *tutorials or guides*.
->With that in mind, what do you think some of the differences between a manual and a tutorial in terms of novices and competent practitioners? Can one document do a good job of being both?
->
->This discussion should take about 5 minutes.
-{: .discussion}
-
-**SEE also:** https://swcarpentry.github.io/instructor-training/02-novice/#different-kinds-of-lessons
-
-* One reason software development is so frustrating
-* Reference material is opaque to someone who doesn't know what they don't know (novice w/o a mental map).
-* Likewise, tutorials that help build such a map are too slow and diffuse for people who already have one
-     * it is poss. to make something that serves both groups, but often easier to address their needs separately
-
->What do you think some implications of this might be for preparing to teach software carpentry?
 
 * An example of the practical implications of this:
     * our Unix lesson only introduces **12 commands** and typically spends 2.5 hours to cover
@@ -89,21 +85,21 @@ date: 2017-04-23
         * Both set the stage for **introducing functions**
         * Explicitly referring back to **pipes and filters** when introducing functions helps solidify both ideas
 
-## Building Useful Mental Models
+## How knowledge gets in the way
 
 * There are many **positive** strategies for building mental models: analogies, stories, role-play, and diagrams are ways to represent a structure that can be used as a model
 
 * **However** there's a greater challenges to creating mental models:
 
 > It ain't what you don't know that gets you into trouble.
-> It's what you know for sure that just ain't so.  
+> It's what you know for sure that just ain't so.
 > — Mark Twain
 
 * Clearing up **learners misconceptions** is as important as presenting them with correct information.
 * Their misconceptions may fall into three categories:
-      * Simple **factual errors**, such as believing that Portland is the capital of Oregon (it's salem). These are simple to correct, but getting the facts right is not enough on its own.
-      * **Broken models**, believing that motion and acceleration must be in the same direction. We can address these by having them reason through examples to see contradictions.
-      * **Fundamental beliefs**, such as "the world is only a few thousand years old" or "human beings cannot be affecting the planet's climate". These usually cannot be addressed in class, since they are deeply connected to the learner's social identity and often cannot be reasoned away.
+    * Simple **factual errors**, such as believing that Joburg is the capital of SA (it's Pretoria(executive), bloemfontein judicial, cape town legislative). These are simple to correct, but getting the facts right is not enough on its own.
+    * **Broken models**, believing that motion and acceleration must be in the same direction. We can address these by having them reason through examples to see contradictions.
+    * **Fundamental beliefs**, such as "the world is only a few thousand years old" or "human beings cannot be affecting the planet's climate". These usually cannot be addressed in class, since they are deeply connected to the learner's social identity and often cannot be reasoned away.
 
 >Do you have any examples of "broken or misapplied models" you'd like to share? Do you remember how it got corrected?
 >
@@ -112,20 +108,7 @@ date: 2017-04-23
 * Since SW & D Carpentry are focused on novices, and helping build strong mental models, we're most interested in the middle category of misconceptions (broken models)
 * During teaching, we want to **expose broken models** so that we can diagnose and provide better ones.
 
-> ## (Discussion) What Happens Next?
->
-> An example of how solving problems can help people correct broken mental models,
-> consider this problem from Epstein's *[Thinking Physics][amazon-thinking-physics]*.
-> Imagine that you have placed a cake of ice in a bathtub
-> and then filled the tub to the rim with water.
-> When the ice melts,
-> does the water level go up (so that the tub overflows),
-> go down,
-> or stay the same?
-> The correct answer is that it stays the same;
-> figuring out why helps people build a model of the relationship between weight, volume, and density.
-
-## Accessing mental models
+## Identifying and correcting misconceptions
 
 ### ask the questions?
 * What do you think we can do to surface these misconceptions, especially in how they related to mental models.???
@@ -140,7 +123,7 @@ date: 2017-04-23
     * *formative assessment* takes place during teaching and learning
         * main purpose: to guide by telling both instructor and learner what to focus on
         * not pass or fail
-        * e.g. a music teacher might ask a student to play a scale very slowly to see if she is breathing correctly and if not correct  
+        * e.g. a music teacher might ask a student to play a scale very slowly to see if she is breathing correctly and if not correct
         * secondary purpose is to prepare learners for summative assessments: don't test what wasn't in the lesson
         * any examples?
 
@@ -153,12 +136,12 @@ date: 2017-04-23
 
 PUT in doc:
 
-## Q: what is: 27 + 15 ?  
+## Q: what is: 27 + 15 ?
 
-1. 42  
-2. 32  
-3. 312  
-4. 33  
+1. 42
+2. 32
+3. 312
+4. 33
 
   * the correct answer is 42, but each of the other answers provides valuable insight
 
@@ -191,8 +174,8 @@ PUT in doc:
 > Formative assessments allow us as instructors to adapt our instruction to our audience.
 > What should we do as instructors if the class votes for:
 >
-> 1. mostly one of the wrong answers?  
-> 2. mostly the right answer?  
+> 1. mostly one of the wrong answers?
+> 2. mostly the right answer?
 > 3. an even spread among options?
 >
 > For one of the above, enter your answer in the Etherpad.
@@ -210,7 +193,7 @@ PUT in doc:
 4. if you start an episode or section with an MCQ and everyone gets it, you can skip the part of the lecture
 
 
-> ## (Exercise) Modeling Novice Mental Models (<https://goo.gl/279azG>)
+> ## (Exercise) Modeling Novice Mental Models
 >
 > Take 10 minutes to create a multiple choice question related to a topic you intend to teach.
 > Type it into the GDoc
