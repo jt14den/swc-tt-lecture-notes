@@ -9,7 +9,7 @@ date: 2017-04-23
 **set timer for 65 minutes**
 
 * <https://carpentries.github.io/instructor-training/11-practice-teaching/>
-* <https://carpentries.github.io/instructor-training/11-practice-teaching/>
+* <http://pad.software-carpentry.org/2017-10-09-NWU-eResearch-ttt>
 
 ## Pedagogical model
 
