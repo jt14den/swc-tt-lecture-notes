@@ -11,8 +11,7 @@ A theme we've covered so far:
 pieces
 * so to write a lesson we want to start at knowing our audience and what we want them to learn, then develop your lesson from that knowledge.
 
-profiles
---------
+## profiles
 
 -   Know thy learners
 -   often the hosts will have a specific audience in mind
@@ -23,8 +22,7 @@ profiles
 -   *learner profiles* have 3 parts: general background, the problem
     they face, and how the course will help them
 
-Learner Profiles exercise
--------------------------
+## Learner Profiles exercise
 
 Read Software Carpentry’s learner profiles and then write one that
 describes a fictional colleague of your own. Who are they, what problems
@@ -33,14 +31,10 @@ possible. Enter your learner profile into the Gdocs.
 
 This exercise should take about 10 minutes.
 
-Learning Objectives
--------------------
-
--   now we'll turn to how we communicate to learners what we will teach
-    and they learn in our class
--   summative and formative assessments help instructors figure out what
-    they're going to teach
--   but we should write **learning objectives**
+## Learning Objectives
+* Once you have an idea of your intended audience, the next step is to set goals for your course or workshop.
+* These goals will be infomed by your audience and will communicate to them and to yourself what you should focus on during the course.
+* These goals are usually communicated through **learning objectives**.
 -   **learning objects** are a single sentence describing what a learner
     will be able to do after the lesson or episode.
 
@@ -69,44 +63,31 @@ not fuzzy
     synthesis, evaluation). There's a table in the lessons that list
     Bloom's taxonomy and also lists 'learning objective' verbs.
 
-Write a single learning objective for your learner profile. Add to the gdoc.
-----------------------------------------------------------------------------
+>Your instructor has posted links to a handful of current Software and Data Carpentry lessons in the Etherpad. Select one learning objective from one of those lessons, then complete the following steps to evaluate it.
+* Unix shell - http://swcarpentry.github.io/shell-novice
+* Git - http://swcarpentry.github.io/git-novice
+* Data Carpentry Spreadsheet http://datacarpentry.github.io/spreadsheet-ecology-lesson/
+* Open Refine Ecology http://datacarpentry.github.io/OpenRefine-ecology-lesson/
+* Intro to data (library carpentry): https://data-lessons.github.io/library-data-intro/
+* library carpentry open refine https://data-lessons.github.io/library-openrefine/
 
-10min
+>Identify the learning objective verb. How specifically does this verb describe the desired learner outcome?
+>In your opinion, does the lesson do an effective job of meeting the stated objective?
+>Does the lesson meet any objectives that are not stated in the objectives section?
+>This exercise should take about 10 minutes.
+>10min
 
-come back, look at learning objectives in gdocs, mention a few.
-
-*any thoughts on on learning objectives. comments? i know we have
+* any thoughts on on learning objectives. comments? i know we have
 some people with education backgrounds in the class? any tips for
 writing learning commons?*
 
-In sum, learning objectives help communicate to your learners what
+ * learning objectives help communicate to your learners what
 they'll be able to do after attending the workshop. They should be
 specific and verifiable. You can use existing taxonomies like bloom's to
 categorize the kinds of learning you are going for.
 
-TDD
----
 
-Who's heard of test driven development? Who would like to explain it to
-class?
-
--   Software development practice where the programmers write the tests
-    for a program before they write the code.
--   forces programmers to specify exactly what they want to accomplish
-    and what 'done' looks like.
--   reduces the risk of confirmation bias
--   similar backwards method works well for lesson design:
-
-1.  identify what is worth learning (concept maps)
-2.  decide what is needed to demonstrate learning took place in learners
-3.  design practice work (formative assessments)
-4.  Sort practices by level of complexity and write episodes
-
-*reverse instructional design* helps keep teaching focused on objectives
-
-Software and Data Carpentry Lessons
------------------------------------
+## Software and Data Carpentry Lessons
 
 <https://software-carpentry.org/lessons/>
 

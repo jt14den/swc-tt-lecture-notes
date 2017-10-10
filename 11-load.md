@@ -11,19 +11,19 @@ date: 2017-04-23
 *
 ## Types of Memory
 * For our purposes, human memory can be divided into two different categories
-  - Long-term or persistent memory - where we store things like our bank card pins, passwords and home address
+  - **Long-term or persistent memory** - where we store things like our bank card pins, passwords and home address
   - It's unbounded (baring injury or disease)
-* A second memory system we possess is called *short-term* or *working memory*
-  - You use this memory to actively thing about things
-  - It is much faster but smaller
+* A second memory system we possess is called **short-term** or **working memory**
+  - You use this memory to actively think about things
+  - It is **much faster** but **smaller**
   - In 1956 George Miller estimated that the average adult's working memory could hold [7±2](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two)
   - this is why phone numbers have a limit of typically 7 or 8 digits
   - back when phones had dials not touchpads, that was the longest string of numbers most adults could remember accurately for as long as it took to dial to go round and round.
-* more recent studies suggest working memory is actually even smaller
+* more recent studies suggest working memory is actually even smaller, 5+-2 or even 3+-2
 * This has important implications for teaching
   - if we present our learners with lots of info without opportuntiy to practice using it, they won't retain it
-  - however if we present small amounts of info interspersed with practice opportunities, more like to retain
-  - this is why frequent formative assessment is important
+  - however if we present small amounts of info interspersed with practice opportunities, more likey to retain later
+  - this is why frequent formative assessment is important,it helps learners practice content and consolidate into long term mem
 
 >## Testing your working memory
 >I'm going to read a list of items and want you to try and memorize the items in it:
@@ -31,7 +31,7 @@ date: 2017-04-23
 >In the etherpad, write down as many words from the list as you can. Compare to other members of the group. What words are remembered the most?
 
 * most ppl have found they only remember 5-7 words
-* don't worry if you remember less - amny factors influence working Memory
+* don't worry if you remember less - many factors influence working Memory
 * there are techniques to improve working membor
 
 ## Strategies For Memory Management
@@ -71,7 +71,7 @@ A TOOL of choice to represent an expert's knowledge graph is the
 * Three key concepts are:
  ![loop](https://carpentries.github.io/instructor-training/fig/for-loop-concepts.png)
 
-*The key relationships, which are as important as the concepts themselves, are:
+* The key relationships, which are as important as the concepts themselves, are:
 
 ![loop2](https://carpentries.github.io/instructor-training/fig/for-loop-arcs.png)
 
@@ -82,7 +82,7 @@ A TOOL of choice to represent an expert's knowledge graph is the
 * many concept maps can be larger than the recommended limit (7+-2), but that's not a bad thing [Set and Dict example](https://swcarpentry.github.io/instructor-training/fig/dict-set.png)
 * after drawing a concept map for an entire subject, the lesson designer can carve out a tightly-connected sub-graphs to make individual episodes
 
->##(EXERCISE) Concept mapping (<https://goo.gl/279azG>)
+>##(EXERCISE) Concept mapping
 >Create a hand drawn concept map for something you would teach in five minutes. (Possibly for the same subject that you used to create a multiple choice question before.) Trade with a partner, and critique each other’s maps. Do they present concepts or surface detail? Which of the relationships in your partner’s map do you consider concepts and vice versa?
 
 >Take 10 minutes to draw the concept maps and share with your neighbor. Write done in the chat once you have finished.
